@@ -192,9 +192,9 @@ const Home = () => {
                                         <div key={ goal.id } className="col">
                                             <Link to={ ref } style={{color: 'black',textDecoration: 'none'}}>
                                                 <div className="card h-100">
-                                                <div className="ratio ratio-16x9">
-                                                    <img src={ goal.picture || getGoalPic(goal.category_id) } className="card-img-top" alt="goal" />
-                                                </div>
+                                                    <div className="ratio ratio-16x9">
+                                                        <img src={ goal.picture || getGoalPic(goal.category_id) } className="card-img-top" alt="goal" />
+                                                    </div>
                                                     <div className="card-body" style={{backgroundColor:"#FEFEFE"}}>
                                                         <div className="d-flex align-items-start justify-content-between">
                                                             <div className="card-title">

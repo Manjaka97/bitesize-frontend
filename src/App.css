@@ -44,6 +44,11 @@ label {
   background-color: #27767C;
 }
 
+.delete-card {
+  width: 45vh;
+  margin: 10px;
+}
+
 #bg {
   background-image: url("https://res.cloudinary.com/elvnosix/image/upload/v1630540341/bitesize/misc/welcome2.jpg");
   background-position: center;
