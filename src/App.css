@@ -1,0 +1,58 @@
+label {
+  color: #27767C;
+}
+
+.mobile {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile{
+    width: 100%;
+  }
+}
+
+.sidebar-link :hover {
+  color: #27767C;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid rgb(150, 150, 150);
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: #27767C;
+}
+
+#bg {
+  background-image: url("https://res.cloudinary.com/elvnosix/image/upload/v1630540341/bitesize/misc/welcome2.jpg");
+  background-position: center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  height: 92.2vh;
+}
+
+#login:hover {
+  cursor: pointer;
+  color: #27767C;
+}
