@@ -39,11 +39,12 @@ const Home = () => {
             })
         }
 
-        // Make the body of this page unscrollable unless mobile
+        // Make the body of this page unscrollable unless mobile or firefox
         // window.scrollTo(0, 0);
         window.scrollTo(0, document.getElementById("navbar").getBoundingClientRect().y);
         const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
-        if (isMobile) {
+        const isFirefox = typeof InstallTrigger !== 'undefined';
+        if (isMobile || isFirefox) {
             document.body.style.overflow = 'auto';
         } else {
             document.body.style.overflow = 'hidden';
