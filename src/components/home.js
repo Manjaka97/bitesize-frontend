@@ -40,7 +40,8 @@ const Home = () => {
         }
 
         // Make the body of this page unscrollable unless mobile
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
+        window.scrollTo(0, document.getElementById("navbar").getBoundingClientRect().y);
         const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
         if (isMobile) {
             document.body.style.overflow = 'auto';
